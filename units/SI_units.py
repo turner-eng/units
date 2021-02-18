@@ -11,6 +11,7 @@ mol = BaseUnit('mol', 6)
 N = Unit(kg * m / s ** 2, label='N')
 J = Unit(N * m, label='J')
 W = Unit(J / s, label='W')
+Pa = Unit(N / m **2, label='Pa')
 
 C = Unit(A * s, label='C')
 V = Unit(J / C, label='V')
@@ -19,7 +20,11 @@ F = Unit(C / V, label='F')
 T = Unit(kg / s ** 2 / A, label='T')
 H = Unit(Ohm * s, label='H')
 
+
 Hz = 1/s
 cm = m/100
+
+
+
 km = 1000 * m
 eV = 1.60217662e-19 * J
