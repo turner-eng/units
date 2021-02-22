@@ -1,4 +1,4 @@
-from units.core import BaseUnit, Unit
+from .core import BaseUnit, Unit
 
 kg = BaseUnit('kg', 0)
 m = BaseUnit('m', 2)
@@ -20,6 +20,8 @@ F = Unit(C / V, label='F')
 T = Unit(kg / s ** 2 / A, label='T')
 H = Unit(Ohm * s, label='H')
 
+
+mm = m/1000
 
 Hz = 1/s
 cm = m/100

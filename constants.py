@@ -1,5 +1,5 @@
-from units.SI_units import *
-import units.math as math
+from .SI_units import *
+import math
 
 G = 6.67408e-11 * m ** 3 * kg ** -1 * s ** -2
 h = 6.62607004e-34 * J * s
